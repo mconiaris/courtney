@@ -7,8 +7,12 @@
 	padding-top: 10px;
 }
 
-header a {
+header {
 	background-color: black;
+	
+}
+
+header a {
 	color: yellow;
 	text-decoration: none;
 }
