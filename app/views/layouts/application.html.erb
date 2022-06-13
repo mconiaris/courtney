@@ -3,12 +3,24 @@
   <head>
     <title>Courtney</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    <meta name="description" content="Courtney Follweiler is a New York-based Licensed dance/movement therapist, psychotherapist, and addiction counselor.">
+    <title>Courtney Follweiler</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Crafty+Girls' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
   </head>
+
+  <header>  
+    <h1 id="title">Courtney Follweiler</h1>
+  </header>
+    <%= render "shared/navbar" %>
 
   <body>
     <%= yield %>
