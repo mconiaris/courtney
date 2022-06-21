@@ -12,6 +12,11 @@ section {
 	margin-right: auto;
 }
 
+.content-text {
+	background-color: white;
+	padding: 10PX;
+}
+
 h1 {
 }
 
